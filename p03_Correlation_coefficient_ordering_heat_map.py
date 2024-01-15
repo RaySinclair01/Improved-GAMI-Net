@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'
 # 读取数据文件
-file_path = "屈原光谱数据3-fa1.xlsx" # 请修改为您的文件路径
+file_path = "Hyperspectral_data.xlsx" # 请修改为 文件路径
 sheet_data = pd.read_excel(file_path, sheet_name=0)
 
 # 计算全组的每个波长与叶绿素和镉的相关系数

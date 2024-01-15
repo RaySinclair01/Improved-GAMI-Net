@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the first worksheet from the Excel file
-file_path = '屈原光谱数据3-fa1.xlsx'
+file_path = 'Hyperspectral_data.xlsx'
 df = pd.read_excel(file_path, sheet_name=0)
 
 # Filter data based on groups

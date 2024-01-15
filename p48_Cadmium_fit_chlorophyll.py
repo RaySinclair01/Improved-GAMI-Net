@@ -30,7 +30,7 @@ def assign_color(cd_value):
         return '#E45C5E'
 
 # 读取Excel文件
-file_path = 'e41_屈原光谱数据3-fa1.xlsx'
+file_path = 'e41_Hyperspectral_data.xlsx'
 df = pd.read_excel(file_path, sheet_name='原始光谱')
 x_data = df['Chl'].values
 y_data = df['Cd'].values

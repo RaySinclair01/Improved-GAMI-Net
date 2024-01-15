@@ -7,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
 
 # Load the Excel file and read the first worksheet
-file_path = 'e41_屈原光谱数据3-fa1.xlsx'
+file_path = 'e41_Hyperspectral_data.xlsx'
 df = pd.read_excel(file_path, sheet_name=0)
 
 # Extract columns from 325 to 1075 (these are the wavelengths in nm)

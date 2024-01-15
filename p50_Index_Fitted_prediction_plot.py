@@ -14,7 +14,7 @@ def PolynomialRegression(degree=2, **kwargs):
     return make_pipeline(PolynomialFeatures(degree), LinearRegression(**kwargs))
 
 # 读取Excel文件
-file_path = 'e41_屈原光谱数据3-fa1.xlsx'
+file_path = 'e41_Hyperspectral_data.xlsx'
 df = pd.read_excel(file_path, sheet_name='原始光谱')
 
 # 转换列名为字符串

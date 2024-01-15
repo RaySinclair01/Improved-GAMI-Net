@@ -6,7 +6,7 @@ from scipy.signal import hilbert
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'
 # 加载数据
-file_path = '屈原光谱数据3-fa1.xlsx'
+file_path = 'Hyperspectral_data.xlsx'
 sheet_data = pd.read_excel(file_path, sheet_name=0)
 spectra_data=sheet_data.iloc[:, 4:]
 
@@ -29,4 +29,4 @@ for sample_index, reciprocal_log_spectrum in reciprocal_log_spectra_data_hilbert
 # 最终，final_dataframe 包括所有样本的去除包络线后的光谱数据，每一列对应一个样本，列名为样本索引
 # 转置 DataFrame
 final_dataframe_transposed = final_dataframe.transpose()
-final_dataframe_transposed.to_excel('屈原光谱数据3-fa1_取倒数对数.xlsx', index=True)
+final_dataframe_transposed.to_excel('Hyperspectral_data_取倒数对数.xlsx', index=True)

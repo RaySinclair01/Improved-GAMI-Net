@@ -10,7 +10,7 @@ def remove_envelope_hilbert(spectrum):
     return envelope_removed_spectrum
 
 # 读取工作表
-file_path = '屈原光谱数据3-fa1.xlsx' # 请替换为你的文件路径
+file_path = 'Hyperspectral_data.xlsx' # 请替换为你的文件路径
 data = pd.read_excel(file_path, sheet_name=0)
 
 # 选择光谱波段的列

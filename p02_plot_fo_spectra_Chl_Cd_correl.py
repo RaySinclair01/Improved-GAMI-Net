@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import pearsonr
 
 # 读取数据
-file_path = "屈原光谱数据3-fa1.xlsx"
+file_path = "Hyperspectral_data.xlsx"
 sheet_data = pd.read_excel(file_path, sheet_name=0)
 
 # 计算相关性的函数

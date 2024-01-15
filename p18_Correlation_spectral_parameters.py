@@ -2,7 +2,7 @@
 import pandas as pd
 
 # 读取Excel文件
-file_path = "光谱特征参数+Cd和Chl加组名34.xlsx"  # 替换为您的文件路径
+file_path = "光谱特征参数+Cd和Chl加组名34.xlsx"  # 替换为 文件路径
 data = pd.read_excel(file_path)
 
 # 提取光谱特征和Chl和Cd列

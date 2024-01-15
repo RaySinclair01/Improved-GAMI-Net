@@ -7,7 +7,7 @@ plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'
 plt.rcParams['font.size'] = 12  # 设定字体大小，例如12号字体
 # 读取数据
-file_path = "屈原光谱数据3-fa1.xlsx"
+file_path = "Hyperspectral_data.xlsx"
 data = pd.read_excel(file_path, sheet_name=0)
 
 # 选择波长范围

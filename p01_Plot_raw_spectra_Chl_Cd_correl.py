@@ -51,7 +51,7 @@ def plot_with_overall_correlations(correlations_by_group, overall_correlations):
     plt.savefig("Plot_raw_spectra_Chl_Cd_correl.png", dpi=600)
     plt.show()
 
-file_path = "屈原光谱数据3-fa1.xlsx" # 请更改为您的文件路径
+file_path = "Hyperspectral_data.xlsx" # 请更改为 文件路径
 sheet_data = pd.read_excel(file_path, sheet_name=0)
 grouped_data = sheet_data.groupby('group')
 correlations_by_group = {group_name: calculate_correlation(group_data) for group_name, group_data in grouped_data}

@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 # 读取第一个sheet的数据
-file_path = "屈原光谱数据3-fa1temp.xlsx"
+file_path = "Hyperspectral_datatemp.xlsx"
 data = pd.read_excel(file_path, sheet_name=0)
 
 # 设置图表样式和字体

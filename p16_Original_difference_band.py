@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the data from the first worksheet
-file_path = "屈原光谱数据3-fa1.xlsx"
+file_path = "Hyperspectral_data.xlsx"
 
 # Process the data from the first worksheet
 def process_data(sheet, col_end):

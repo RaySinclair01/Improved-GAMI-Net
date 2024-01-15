@@ -11,7 +11,7 @@ deepest_blue = cm.coolwarm(0)  # 表示颜色条的最低端 蓝色
 deepest_red = cm.coolwarm(0.9)  # 表示颜色条的最高端 红色
 
 # Load the Excel file
-file_path = 'e41_屈原光谱数据3-fa1.xlsx'
+file_path = 'e41_Hyperspectral_data.xlsx'
 
 # Load the four worksheets into dataframes
 df_raw_spectra = pd.read_excel(file_path, sheet_name='原始光谱')

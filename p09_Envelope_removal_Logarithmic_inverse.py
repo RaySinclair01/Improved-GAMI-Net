@@ -6,7 +6,7 @@ from scipy.signal import hilbert
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.weight'] = 'bold'
 # 加载数据
-file_path = '屈原光谱数据3-fa1.xlsx'
+file_path = 'Hyperspectral_data.xlsx'
 sheet_data = pd.read_excel(file_path, sheet_name=0)
 groups = ['clean', 'low', 'medium', 'high']
 spectra_data = {group: sheet_data[sheet_data['group'] == group].iloc[:, 4:] for group in groups}

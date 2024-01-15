@@ -3,7 +3,7 @@ from matplotlib.font_manager import FontProperties
 import pandas as pd
 
 # Load the data
-data_filepath = '屈原光谱数据3-fa1.xlsx'
+data_filepath = 'Hyperspectral_data.xlsx'
 data = pd.read_excel(data_filepath, sheet_name=0)
 
 

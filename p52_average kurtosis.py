@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from scipy.stats import skew, kurtosis
-excel_path = "屈原光谱数据3-fa1.xlsx"
+excel_path = "Hyperspectral_data.xlsx"
 df = pd.read_excel(excel_path,sheet_name=0)
 
 # 计算Cd列的平均值和标准差

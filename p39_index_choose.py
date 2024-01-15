@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load the Excel file
-file_path = 'e41_屈原光谱数据3-fa1.xlsx'
+file_path = 'e41_Hyperspectral_data.xlsx'
 df_first_sheet = pd.read_excel(file_path, sheet_name=0)
 
 # Convert all column names to string type for consistency

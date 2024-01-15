@@ -5,7 +5,7 @@ from sklearn.manifold import TSNE
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 
 # 加载第一个工作表的数据
-file_path = '屈原光谱数据3-fa1.xlsx'
+file_path = 'Hyperspectral_data.xlsx'
 sheet1_data = pd.read_excel(file_path, sheet_name=0)
 
 # 选择需要的列（波段波长对应的光谱反射率）

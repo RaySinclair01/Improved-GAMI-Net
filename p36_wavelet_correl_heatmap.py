@@ -6,14 +6,14 @@ import seaborn as sns
 import pywt
 
 # 读取数据
-file_path = "屈原光谱数据3-fa1.xlsx"
+file_path = "Hyperspectral_data.xlsx"
 data = pd.read_excel(file_path, sheet_name=0)
 
 # 选择波长范围
 wavelengths_range = range(325, 1076)
 spectra_data = data.iloc[:, 4:]
 
-# 定义小波变换函数和其他函数，这些函数在您的原始脚本中
+# 定义小波变换函数和其他函数，这些函数在 原始脚本中
 def wavelet_transform(data, wavelet_name, level):
     coeffs = pywt.wavedec(data, wavelet_name, level=level)
     return coeffs

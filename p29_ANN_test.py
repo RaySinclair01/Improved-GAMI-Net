@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 # Load and prepare the data
-data_path = 'GAMI-NET_Chl.csv'  # Replace with the path to your data file
+data_path = 'GAMI-NET_Chl.csv'  # Replace with the path to  data file
 data = pd.read_csv(data_path)
 X = data.iloc[:, :-1].values
 y = data['Chl'].values

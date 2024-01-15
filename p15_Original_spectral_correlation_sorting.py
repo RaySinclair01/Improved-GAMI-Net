@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the data
-data = pd.read_excel("屈原光谱数据3-fa1.xlsx", sheet_name=0)
+data = pd.read_excel("Hyperspectral_data.xlsx", sheet_name=0)
 
 # Create empty lists to store the wavelengths and correlations
 wavelengths = []

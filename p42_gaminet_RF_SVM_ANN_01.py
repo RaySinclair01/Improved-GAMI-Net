@@ -34,14 +34,14 @@ ann_model = MLPRegressor(hidden_layer_sizes=(24, 24), max_iter=500, random_state
 
 # Metrics storage
 model_metrics = {'GAMINet':{},'RF': {}, 'SVM': {}, 'ANN': {}}
-# Sample GAMI-Net metrics (You would replace these with your actual calculated values)
+# Sample GAMI-Net metrics (You would replace these with  actual calculated values)
 gaminet_metrics = {
-    'R2_Train': 0.98,  # Replace with your actual value
-    'RMSE_Train': 0.03,  # Replace with your actual value
-    'RPD_Train': 7.35,  # Replace with your actual value
-    'R2_Test': 0.90,  # Replace with your actual value
-    'RMSE_Test': 0.09,  # Replace with your actual value
-    'RPD_Test': 3.2  # Replace with your actual value
+    'R2_Train': 0.98,  # Replace with  actual value
+    'RMSE_Train': 0.03,  # Replace with  actual value
+    'RPD_Train': 7.35,  # Replace with  actual value
+    'R2_Test': 0.90,  # Replace with  actual value
+    'RMSE_Test': 0.09,  # Replace with  actual value
+    'RPD_Test': 3.2  # Replace with  actual value
 }
 
 # Add GAMI-Net metrics into model_metrics dictionary
