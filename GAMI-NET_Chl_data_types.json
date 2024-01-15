@@ -1,0 +1,77 @@
+{
+    "R934_org": {
+        "type": "continuous"
+    },
+    "R933_org": {
+        "type": "continuous"
+    },
+    "R935_org": {
+        "type": "continuous"
+    },
+    "R1064_diff": {
+        "type": "continuous"
+    },
+    "R1067_diff": {
+        "type": "continuous"
+    },
+    "R938_diff": {
+        "type": "continuous"
+    },
+    "R949_org": {
+        "type": "continuous"
+    },
+    "R1064_org": {
+        "type": "continuous"
+    },
+    "R942_org": {
+        "type": "continuous"
+    },
+    "R325_env": {
+        "type": "continuous"
+    },
+    "R326_env": {
+        "type": "continuous"
+    },
+    "R327_env": {
+        "type": "continuous"
+    },
+    "R325_inv": {
+        "type": "continuous"
+    },
+    "R334_inv": {
+        "type": "continuous"
+    },
+    "R340_inv": {
+        "type": "continuous"
+    },
+    "area_of_red_border": {
+        "type": "continuous"
+    },
+    "Location_of_near-infrared_absorption_valleys(nm)": {
+        "type": "continuous"
+    },
+    "Yellow_edge_Area": {
+        "type": "continuous"
+    },
+    "Red_Edge_Position(nm)": {
+        "type": "continuous"
+    },
+    "absorption_width(nm)": {
+        "type": "continuous"
+    },
+    "area_of_red_border.1": {
+        "type": "continuous"
+    },
+    "D1-Variance": {
+        "type": "continuous"
+    },
+    "D5-Mean": {
+        "type": "continuous"
+    },
+    "D4-Mean": {
+        "type": "continuous"
+    },
+    "Chl": {
+        "type": "target"
+    }
+}
